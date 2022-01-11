@@ -1,0 +1,52 @@
+// const div = dom.create("<div>我是div</div>")
+// console.log(div)
+// dom.after(text, div)
+// const div2 = dom.create('<div>我是哥哥</div>')
+// dom.before(text, div2)
+// const he = dom.create("<h1>子节点</h1>")
+// var di = document.querySelector('#parent')
+// console.log(di)
+// dom.append(parentdiv, he)
+// const div3 = dom.create('<div></div>')
+// dom.empty(div4)
+// dom.attr(parentdiv, "style", "border: 1px solid red")
+// dom.attr(text6, "style", "border: 1px solid red")
+// dom.text(text6, "hell word")
+// dom.text(txt, "我是更改的内容")
+
+
+// const tx = dom.text(txt)
+// console.log(tx)
+// dom.html(html, "<h1>你好</h1>")
+// console.log(dom.html(html))
+// dom.style(html, "background", "red")
+// dom.style(html, "background")
+// // dom.style(html, bg)
+// dom.style(html, { width: "400px" })
+// dom.class.add(html, "clas")
+// dom.class.add(html, "cla6")
+// // dom.class.remove(html, "clas")
+// console.log(dom.class.has(html, "cla6"))
+// let fn = function () {
+//     console.log(888)
+// }
+// dom.on(html, "click", fn)
+// dom.off(html, "click", fn)
+// console.log(dom.find("#cs")[0])
+// let sc = dom.find("#cs")[0]
+// console.log(dom.find('.css1', sc)[0])
+// console.log(dom.parent(div4))
+// console.log(dom.children(cs)[0])
+// console.log(dom.siblings(divv))
+// console.log(dom.next(html))
+// console.log(dom.previous(html))
+// dom.each(dom.children(cs), (n) => dom.style(n, "border", "1px solid red"))
+// // console.log()
+// console.log(dom.index(div4))
+
+//作业区域
+const div = dom.find('.red')[0]
+dom.style(div, 'color', 'red')
+const divList = dom.find('.red')
+dom.each(divList, (n) => console.log(n))
+
